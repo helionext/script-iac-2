@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt install update
-apt install upgrade
+apt-get install update
+apt-get install upgrade
 apt install unzip -y
 apt install apache2 -y
 
