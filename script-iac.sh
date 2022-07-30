@@ -1,9 +1,9 @@
 #!/bin/bash
 
 apt-get install update
-apt-get install upgrade
-apt install unzip -y
-apt install apache2 -y
+apt-get install upgrade -y
+apt-get install unzip -y
+apt-get install apache2 -y
 
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
